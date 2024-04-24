@@ -1,0 +1,19 @@
+/* Styling the last paragraph */
+
+div> :last-child {
+    color: yellow;
+}
+
+
+/* Styling the second paragraph */
+
+div> :nth-child(2) {
+    background-color: red;
+}
+
+
+/* Styling the descendants of the inner div */
+
+div>div * {
+    color: brown;
+}

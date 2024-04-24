@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Task Roshan</title>
+
+    <!-- styling -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            background-color: bisque;
+        }
+        
+        .container-1 {
+            background-color: bisque;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+        }
+        
+        header {
+            height: 80px;
+            background-color: black;
+        }
+        
+        footer {
+            height: 90px;
+            background-color: black;
+        }
+        
+        .container-2 {
+            display: flex;
+            flex-direction: row-reverse;
+            bottom: 40%;
+            position: relative;
+            padding: 15px;
+            flex-wrap: wrap;
+        }
+        
+        input {
+            width: 200px;
+            height: 100px;
+            border: 3px solid black;
+        }
+        
+        button {
+            width: 100px;
+            height: 30px;
+            color: white;
+            background-color: black;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- nav -->
+    </header>
+    <div class="container-1">
+        <h1>An inspiring design delivered to <br>your inbox every morning</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Vitae officiis facere quisquam assumenda aperiam optio <br>voluptate ab tempore exercitationem! <br> </p>
+        <h3>show me how it looks</h3>
+        <input type="email" placeholder="Enter email" name="email">
+        <button type="submit">Submit</button>
+
+        <p id="p2">Lorem ipsum dolor sit amet consectetur </p>
+    </div>
+    <div class="container-2">
+        <img src="./hero.png" alt="image" height="300px" width="350px" id="image">
+
+    </div>
+
+
+
+    <!-- nav -->
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 20px;
+        }
+        
+        .card {
+            border: 1px solid white;
+            height: 350px;
+            width: 280px;
+            padding: 10px;
+            box-shadow: 5px 5px 10px 1px rgb(223, 216, 216);
+        }
+        
+        .card:hover {
+            background-color: aqua;
+            box-shadow: 5px 5px 5px black;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        button {
+            height: 30px;
+            width: 90px;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdCUyMGltZ2V8ZW58MHx8MHx8fDA%3D" alt="image1" />
+            <div class="card-body">
+                <h2>Title 1 </h2>
+                <p>description 1</p>
+                <button type="submit">Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdCUyMGltZ2V8ZW58MHx8MHx8fDA%3D" alt="image1" />
+            <div class="card-body">
+                <h2>Title 1 </h2>
+                <p>description 1</p>
+                <button type="submit">Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>

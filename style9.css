@@ -1,0 +1,25 @@
+#div1 {
+    height: 150px;
+    width: 150px;
+    border-width: 20px;
+    background-image: repeating-radial-gradient( circle at top left, white, grey 20%, white 40%, grey 40%, white 60%, grey 60%, white, grey 100%, white 100%);
+    padding: 10px;
+}
+
+#div2 {
+    height: 150px;
+    width: 150px;
+    border-radius: 500px;
+    background-image: conic-gradient(green 0% 33%, yellow 33% 66%, red 66% 100%);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#div3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 500px;
+    background-image: conic-gradient(red 0% 12.5%, blue 12.5% 25%, skyblue 25% 37.5%, pink 37.5% 50%, purple 50% 62.5%, orange 62.5% 75%, green 75% 87.5%, yellow 87.5%);
+    padding: 10px;
+    margin-top: 30px;
+}

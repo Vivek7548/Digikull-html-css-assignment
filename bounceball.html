@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce ball</title>
+    <!-- css styling  -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: radial-gradient( circle at top left, rgb(222, 153, 153) 20%, 40%, yellow 40%, white 60%, grey 60%, white, grey 100%, red 100%);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        hr {
+            width: 400px;
+            height: 3px;
+            background-color: black;
+            margin-top: auto;
+        }
+        
+        #ball {
+            width: 200px;
+            height: 200px;
+            border: 2px dashed black;
+            background-color: red;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 150px;
+            padding: 50px;
+            animation-name: ball;
+            animation-duration: 0.5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        @keyframes ball {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-90px);
+                background-image: radial-gradient(black, green);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center"><em>Bounce Ball</em> </h1>
+    <div id="ball"></div>
+    <hr>
+</body>
+
+</html>
